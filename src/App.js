@@ -3,19 +3,17 @@
 // import "primeicons/primeicons.css";
 // import { Avatar } from 'primereact/avatar';
 // import { Badge } from 'primereact/badge';
-import Profile from "./components/Profile";
-import Links from "./components/Links";
-import Footer from "./components/Footer";
-import "./App.css"
+import Profile from './components/Profile';
+import Links from './components/Links';
+import Footer from './components/Footer';
+import './App.css';
 
-const App = () => {
-  return (
-    <div className="App">
-      <Profile />
-      <Links />
-      <Footer /> 
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <Profile />
+    <Links />
+    <Footer />
+  </div>
+);
 
 export default App;

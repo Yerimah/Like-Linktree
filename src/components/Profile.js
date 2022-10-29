@@ -1,16 +1,14 @@
-import React from 'react'
-import Photo from '../assets/profilepic.png'
+import React from 'react';
+import Photo from '../assets/profilepic.png';
 
-const Profile = () => {
-  return (
-    <>
-      <div id="profile_img">
-        <img src={Photo} alt="photo" />
-      </div>
-      <h1>Daniel Yerimah</h1>
-      <div id="slack"></div>
-    </>
-  )
-}
+const Profile = () => (
+  <>
+    <div id="profile_img">
+      <img src={Photo} alt="myBio" />
+    </div>
+    <h1>Daniel Yerimah</h1>
+    <div id="slack" />
+  </>
+);
 
-export default Profile
+export default Profile;
