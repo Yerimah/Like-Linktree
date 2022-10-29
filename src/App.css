@@ -8,10 +8,16 @@ img {
   width: 88px;
 }
 
+h1 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
 .links {
   display: flex;
   flex-direction: column;
-  padding: 24px 30px;
+  padding: 24px 32px;
 }
 
 a {
@@ -20,8 +26,8 @@ a {
 }
 
 button {
-  margin: 5px;
-  padding: 10px;
+  margin: 8px;
+  padding: 15px;
   background-color: #D0D5DD;
   border: 1px solid #D0D5DD;
   border-radius: 8px;
