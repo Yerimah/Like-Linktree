@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#profile_img {
+  margin-top: 10px;
+}
+
 img {
   border-radius: 50%;
   height: 88px;
@@ -32,3 +36,15 @@ button {
   border: 1px solid #D0D5DD;
   border-radius: 8px;
 }
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+
+.foot {
+  height: 44px;
+  width: 44px; 
+}
+
