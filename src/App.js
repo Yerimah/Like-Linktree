@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route } from 'react-router-dom';
 import Profile from './components/Profile';
 import Links from './components/Links';
 import Footer from './components/Footer';
