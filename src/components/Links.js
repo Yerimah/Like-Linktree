@@ -34,7 +34,7 @@ const Links = () => (
       </button>
 
       <button type="button">
-        <a id="contact">Contact</a>
+        <a id="contact" href='/contact'>Contact</a>
       </button>
     </section>
   </div>
