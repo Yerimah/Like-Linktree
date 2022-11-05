@@ -7,7 +7,7 @@ import Photo from '../assets/profilepic.png';
 const Home = () => (
   <div className="home_page">
     <div id="profile_img">
-      <img src={Photo} alt="myBio" />
+      <img src={Photo} alt="myBio" className="bio" />
     </div>
     <h1>Daniel Yerimah</h1>
     <div id="slack" />
