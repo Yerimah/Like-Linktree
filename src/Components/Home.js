@@ -5,7 +5,7 @@ import icon from '../assets/Icon.png';
 import Photo from '../assets/profilepic.png';
 
 const Home = () => (
-  <div>
+  <div className="home_page">
     <div id="profile_img">
       <img src={Photo} alt="myBio" />
     </div>
@@ -48,13 +48,13 @@ const Home = () => (
       </button>
 
       <div className="social-links">
-      <div>
-        <img src={slack} alt="slack" className="foot" />
-      </div>
+        <div>
+          <img src={slack} alt="slack" className="foot" />
+        </div>
 
-      <div>
-        <img src={icon} alt="github" className="foot" />
-      </div>
+        <div>
+          <img src={icon} alt="github" className="foot" />
+        </div>
       </div>
     </section>
   </div>

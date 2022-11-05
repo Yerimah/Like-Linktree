@@ -5,11 +5,10 @@ import Contact from './Components/pages/Contact';
 
 const App = () => (
   <div className="App">
-    
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
   </div>
 );
 
