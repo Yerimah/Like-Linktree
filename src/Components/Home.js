@@ -1,7 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import slack from '../assets/slack.png';
+import icon from '../assets/Icon.png';
+import Photo from '../assets/profilepic.png';
 
-const Links = () => (
+const Home = () => (
   <div>
+    <div id="profile_img">
+      <img src={Photo} alt="myBio" />
+    </div>
+    <h1>Daniel Yerimah</h1>
+    <div id="slack" />
+
     <section className="links">
       <button type="button">
         <a id="twitter" href="https://twitter.com/iamdeewyne">
@@ -34,10 +44,20 @@ const Links = () => (
       </button>
 
       <button type="button">
-        <a id="contact" href='/contact'>Contact</a>
+        <Link to="/contact" id="contact">Contact</Link>
       </button>
+
+      <div className="social-links">
+      <div>
+        <img src={slack} alt="slack" className="foot" />
+      </div>
+
+      <div>
+        <img src={icon} alt="github" className="foot" />
+      </div>
+      </div>
     </section>
   </div>
 );
 
-export default Links;
+export default Home;

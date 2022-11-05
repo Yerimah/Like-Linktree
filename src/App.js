@@ -1,18 +1,15 @@
 import { Routes, Route } from 'react-router-dom';
-import Profile from './components/Profile';
-import Links from './components/Links';
-import Footer from './components/Footer';
+import Home from './Components/Home';
 import './App.css';
-import Contact from './components/Contact';
+import Contact from './Components/pages/Contact';
 
 const App = () => (
   <div className="App">
-    <Profile />
-    <Links />
-    <Footer />
-    <Routes>
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
   </div>
 );
 
