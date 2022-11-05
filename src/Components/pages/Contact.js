@@ -103,7 +103,6 @@ const Contact = () => {
           </div>
 
           <input type="submit" value="Send message" id="btn_submit" />
-          {submit ? <div>Success! Thank you for reaching out</div> : null}
         </form>
       </div>
     </>
