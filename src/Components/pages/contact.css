@@ -91,6 +91,10 @@ form {
   gap: 8px;
 }
 
+.success-message {
+    color: green;
+}
+
 span {
   color: #f00;
 }

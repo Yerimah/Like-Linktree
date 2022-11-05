@@ -10,6 +10,7 @@ const Contact = () => {
   });
 
   const [submit, setSubmit] = useState(false);
+  const [valid, setValid] = useState(false);
 
   const handleFirstInput = (event) => {
     setInput({ ...input, firstname: event.target.value });
@@ -30,6 +31,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSubmit(true);
+    if (input.firstname && input.lastname && input.email && input.message) {
+      setValid(true);
+    }
   };
 
   return (
@@ -103,6 +107,7 @@ const Contact = () => {
           </div>
 
           <input type="submit" value="Send message" id="btn_submit" />
+          {submit && valid ? <div className="success-message">Your submission is successful</div> : null}
         </form>
       </div>
     </>
